@@ -1,4 +1,4 @@
-# using-vuex-4-modules-in-typescript
+# using-vuex-4-modules-in-vue3-with-typescript
 
 ## Project setup
 ```
