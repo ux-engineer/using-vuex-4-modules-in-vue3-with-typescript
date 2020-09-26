@@ -1,16 +1,18 @@
 {
-  "name": "using-vuex-4-modules-in-typescript",
+  "name": "using-vuex-4-modules-in-vue3-with-typescript",
   "version": "0.1.0",
   "private": true,
+  "description": "Need to solve cyclical dependency linting errors when using Vuex 4 moduels in TypeScript.",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint && tsc --noEmit"
   },
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0-0",
-    "vuex": "^4.0.0-0"
+    "vuex": "^4.0.0-0",
+    "vuex-persistedstate": "^3.1.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.33.0",
