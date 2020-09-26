@@ -1,0 +1,27 @@
+{
+    // Somewhat opinionated extension recommendations
+    "recommendations": [
+        // ESLint - Integrates ESLint JavaScript into VS Code.
+        "dbaeumer.vscode-eslint",
+        // Disable eslint rule - Disable eslint rule with one click.
+        "wooodhead.disable-eslint-rule",
+        // eslint-disable-snippets - Simple snippets for disable eslint rules
+        "drknoxy.eslint-disable-snippets",
+        // Vue - Syntax highlight for Vue.js
+        "jcbuisson.vue",
+        // Output Colorizer - Syntax highlighting for log files
+        "ibm.output-colorizer",
+        // EditorConfig for VS Code - EditorConfig Support for Visual Studio Code
+        "editorconfig.editorconfig",
+        // Markdown All in One - All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more).
+        "yzhang.markdown-all-in-one",
+        // DotENV - Support for dotenv file syntax.
+        "mikestead.dotenv",
+        // Todo Tree - Show TODO, FIXME, etc. comment tags in a tree view
+        "gruntfuggly.todo-tree",
+        // Todo Highlight - highlight TODOs, FIXMEs, and any keywords, annotations...
+        "wayou.vscode-todo-highlight",
+        // Peacock - Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which.
+        "johnpapa.vscode-peacock",
+    ]
+}

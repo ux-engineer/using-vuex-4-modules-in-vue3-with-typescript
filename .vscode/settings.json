@@ -1,0 +1,77 @@
+{
+    // Note: These settings get applied only when this project's parent folder is opened as the project root.
+    // ----------------------------------------
+    // FILE EOL CHARACTER
+    // Use End of Line characters: \n for LF, and \r\n for CRLF.
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    // ----------------------------------------
+    // FILE MAPPING
+    "files.exclude": {
+        "**/*.log": true,
+        "**/*.log*": true,
+        "**/dist": true,
+        "**/coverage": true
+    },
+    "files.associations": {
+        ".babelrc": "json",
+        ".eslintrc": "json",
+        ".stylelintrc.json": "json",
+        ".markdownlintrc": "json",
+        "*.json": "json",
+        "*.config.js": "javascript",
+        "*.spec.js": "javascript",
+        "*.vue": "vue",
+    },
+    // ----------------------------------------
+    // EDITOR SETTING
+    "editor.scrollBeyondLastLine": false,
+    "telemetry.enableTelemetry": false,
+    // ----------------------------------------
+    // EDITOR FORMATTER MAPPING
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    // "[javascript]": {
+    //   "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    // },
+    // "[typescript]": {
+    //   "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    // },
+    // "[vue]": {
+    //   "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    // },
+    // "[scss]": {
+    //   "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    // },
+    // "[css]": {
+    //   "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    // },
+    // ----------------------------------------
+    // EDITOR CODE ACTIONS ON SAVE
+    // Since 2.0.4 ESLint can be used as formatter, and works with VS Code's new Auto Fix On Save -action infrastructure.
+    // Ref: https://github.com/microsoft/vscode-eslint/blob/master/README.md#release-notes
+    "editor.codeActionsOnSave": {
+        // "source.fixAll": true,
+        "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true
+    },
+    // ----------------------------------------
+    // ESLINT FORMATTER
+    "eslint.enable": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.options": {
+        "extensions": [
+            ".html",
+            ".js",
+            ".ts",
+            ".vue",
+            ".json"
+        ]
+    },
+    "eslint.validate": [
+        "javascript",
+        "vue",
+        "typescript"
+    ],
+}
