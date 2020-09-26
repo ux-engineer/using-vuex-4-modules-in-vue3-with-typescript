@@ -27,6 +27,8 @@
     ]
   },
   "include": [
+    "@types/**/*.d.ts",
+    "@types/**/*.ts",
     "src/**/*.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
